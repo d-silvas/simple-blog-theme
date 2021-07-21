@@ -59,9 +59,9 @@ add_action('wp_enqueue_scripts', 'simpleblog_register_scripts');
  * THEME SUPPORT
  */
 
-// Adds dynamic title tag support. Wordpress will manage title tags itself
 function simpleblog_theme_support()
 {
+    // Adds dynamic title tag support. Wordpress will manage title tags itself
     add_theme_support('title-tag');
     add_theme_support('custom-logo');
     add_theme_support('post-thumbnails');
